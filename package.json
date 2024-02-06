@@ -1,0 +1,21 @@
+{
+	"name": "csv-to-json-converter-api",
+	"version": "1.0.0",
+	"description": "A Node.js API for converting CSV to JSON format",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon npm start"
+	},
+	"author": "Sikander Shaikh",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.18.1",
+		"nodemon": "^2.0.18",
+		"dotenv": "^16.0.1",
+		"pg": "^8.7.3",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.21.2",
+		"csv-parser": "^5.1.0"
+	}
+}
